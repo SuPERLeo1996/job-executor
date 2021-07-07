@@ -38,7 +38,7 @@ public class XXlJobConfig {
     private int logRetentionDays;
 
 
-    @Bean(initMethod = "start", destroyMethod = "destroy")
+    @Bean()
     public XxlJobSpringExecutor xxlJobExecutor() {
         log.info(">>>>>>>>>>> xxl-job config init.");
         XxlJobSpringExecutor xxlJobSpringExecutor = new XxlJobSpringExecutor();
