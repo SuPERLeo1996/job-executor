@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM openjdk:8u265-jdk
 MAINTAINER leo
 
 ENV PARAMS="&"
